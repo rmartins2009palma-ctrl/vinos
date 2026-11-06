@@ -1,0 +1,82 @@
+<title>Fondos Vi de la Terra</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: prototipo móvil. Bandas a sangre con vídeo de fondo y velo granate; entre ellas, notas de trabajo sobre papel crema. */
+:root{
+  --granate:#9b1838; --granate-osc:#5e0d22; --crema:#faf0dc;
+  --bg:#fbf6ec; --fg:#2b1a1e; --muted:#6e5a5f; --line:#e6d8c4; --tag-bg:#f1e3cc;
+  --display:"Jost","Avenir Next","Segoe UI",system-ui,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a1113;--fg:#f4e9d8;--muted:#b8a6a0;--line:#3a2a2d;--tag-bg:#2c1d20;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1a1113;--fg:#f4e9d8;--muted:#b8a6a0;--line:#3a2a2d;--tag-bg:#2c1d20;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:17px/1.6 var(--body)}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band{position:relative;overflow:hidden;color:var(--crema);background:var(--granate-osc)}
+.band video,.band .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.band::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(94,13,34,.35),rgba(94,13,34,.82))}
+.band .wrap{position:relative;z-index:1;padding-block:clamp(96px,22vw,160px) 48px;display:grid;gap:16px}
+.eyebrow{font:500 12px/1 var(--display);letter-spacing:.16em;text-transform:uppercase;opacity:.9}
+h1,h2{font-family:var(--display);font-weight:500;line-height:1.05;margin:0;text-wrap:balance}
+h1{font-size:clamp(40px,9vw,68px)}
+h2{font-size:clamp(30px,6vw,44px)}
+.band p{margin:0;max-width:34ch;font-size:18px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.btn{font:500 15px/1 var(--display);letter-spacing:.04em;padding:14px 20px;border-radius:2px;text-decoration:none;border:1.5px solid var(--crema);color:var(--crema)}
+.btn.solid{background:var(--crema);color:var(--granate-osc)}
+.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.note{padding-block:40px;display:grid;gap:14px;border-bottom:1px solid var(--line)}
+.note h3{font:600 13px/1.2 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--granate);margin:0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .note h3{color:#e7a3b2}}
+:root[data-theme="dark"] .note h3{color:#e7a3b2}
+.note p{margin:0;max-width:62ch;color:var(--fg)}
+.specs{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font:14px/1.4 var(--display);color:var(--muted);font-variant-numeric:tabular-nums}
+.specs b{color:var(--fg);font-weight:500}
+.tag{display:inline-block;font:500 12px/1 var(--display);padding:6px 9px;background:var(--tag-bg);border-radius:2px;color:var(--fg)}
+@media (prefers-reduced-motion:reduce){.band video{display:none}}
+</style>
+
+<section class="band" aria-label="Portada">
+  <img class="poster" src="fondos/raim-dia.jpg" alt="">
+  <video autoplay muted loop playsinline poster="fondos/raim-dia.jpg" aria-hidden="true">
+    <source src="fondos/raim-dia.webm" type="video/webm">
+    <source src="fondos/raim-dia.mp4" type="video/mp4">
+  </video>
+  <div class="wrap">
+    <span class="eyebrow">IGP Vi de la Terra Mallorca</span>
+    <h1>Vins del cor del Mediterrani</h1>
+    <p>Más de 80 bodegas y una sola garantía: uva 100&nbsp;% de Mallorca.</p>
+    <div class="ctas">
+      <a class="btn solid" href="#raim">Encuentra una experiencia</a>
+      <a class="btn" href="#raim">Explora las bodegas</a>
+    </div>
+  </div>
+</section>
+
+<div class="wrap note">
+  <h3>Fondo 1 · Portada</h3>
+  <p>Fragmento de 11,5&nbsp;s del aftermovie del Raïm Wine Fest Palma 2026 (vídeo «09.37.19», del segundo 36 al 47,5): público junto a la Catedral, botellas en hielo, tapas, ostras, catando, sirviendo. Va sin sonido, en bucle, con un velo granate para que el texto se lea.</p>
+  <div class="specs"><span>Origen</span><b>Reel de @vterramallorca reenviado por WhatsApp</b><span>Resolución</span><b>576 × 1024 (vertical)</b><span>Peso</span><b>1,4 MB (MP4) · 1,5 MB (WebM)</b></div>
+</div>
+
+<section class="band" id="raim" aria-label="Raïm Wine Fest">
+  <img class="poster" src="fondos/raim-noche.jpg" alt="">
+  <video autoplay muted loop playsinline poster="fondos/raim-noche.jpg" aria-hidden="true">
+    <source src="fondos/raim-noche.webm" type="video/webm">
+    <source src="fondos/raim-noche.mp4" type="video/mp4">
+  </video>
+  <div class="wrap">
+    <span class="eyebrow">Raïm Wine Fest · XVII edicions</span>
+    <h2>30.000 persones al Parc de la Mar</h2>
+    <p>Rep l’avís de la propera edició i el cartell abans que ningú.</p>
+    <div class="ctas"><a class="btn solid" href="#raim">Avisa'm</a></div>
+  </div>
+</section>
+
+<div class="wrap note">
+  <h3>Fondo 2 · Raïm Wine Fest</h3>
+  <p>Fragmento de 9&nbsp;s del mismo aftermovie (del segundo 76,5 al 85,5): conciertos nocturnos, luces y bengalas. Para una sección de evento, con ritmo más rápido que la portada.</p>
+  <p><span class="tag">Calidad limitada</span> WhatsApp reduce los vídeos a 576&nbsp;px de ancho. En el móvil se ve aceptable con el velo encima, pero en ordenador se vería borroso y, al ser vertical, habría que recortarlo mucho. Para la web definitiva necesitamos los archivos originales en horizontal.</p>
+</div>
