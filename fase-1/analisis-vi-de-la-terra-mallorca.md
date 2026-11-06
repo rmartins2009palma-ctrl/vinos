@@ -31,7 +31,7 @@ Esto cambia la estrategia:
 3. **Hay un error visible en la portada.** **[H]** En lugar del feed de Instagram aparece el texto literal `[instagram-feed feed="1"]` (ver `evidencias/home-movil-shortcode-instagram.png`).
 4. **Rendimiento y SEO por debajo de lo exigible.** **[H]** La portada pesa unos 5,9 MB y hace 79 peticiones. La carga completa tarda entre 6,7 y 7,7 s y el servidor tarda unos 3 s en responder. Ninguna página revisada tiene meta description, y casi ninguna tiene H1 ni textos alternativos en las imágenes.
 5. **El mayor activo de marca es el Raïm Wine Fest**, que llegó a 30.000 asistentes en Palma en 2026 según la propia web. **[I]** Hoy está disperso en 17 páginas sueltas dentro del menú, en lugar de tener un espacio propio que capte y fidelice a ese público.
-6. **Instagram: [Sin acceso].** Instagram exige iniciar sesión para ver el perfil. Además, el entorno de análisis bloqueó la obtención automatizada de datos y no la he forzado. Para completar esa parte necesito los materiales que pido en la sección 8.
+6. **Instagram va por delante de la web.** **[H]** Según capturas del 6 de noviembre de 2026, tiene 19,3 mil seguidores y 558 publicaciones, predominan los reels y hay una serie bien producida, «Els nostres cellers». **[I]** Tiene mejor material visual y más actualidad que la web. **[Sin acceso]** Faltan las métricas de interacción.
 
 **Las tres palancas de mayor impacto:**
 - Corregir los datos y errores visibles.
@@ -118,20 +118,53 @@ Esto cambia la estrategia:
 
 ## 3. Diagnóstico de Instagram (@vterramallorca)
 
-**[Sin acceso]** Instagram muestra una pantalla de inicio de sesión a los visitantes no registrados. El entorno de análisis además bloqueó la obtención automatizada del perfil y no lo he forzado. Tampoco he encontrado datos públicos fiables del perfil indexados en buscadores. **No voy a suponer** seguidores, frecuencia de publicación ni resultados.
+**Fuente:** 4 capturas de pantalla de la app que me facilitó el cliente el 6 de noviembre de 2026. Muestran la cabecera del perfil y unas 45 publicaciones. Las capturas **no muestran** «me gusta», comentarios, visualizaciones ni fechas, así que la interacción y las publicaciones con mejor y peor respuesta siguen **[Sin acceso]**.
 
-Lo que sí puedo afirmar:
+**Perfil (hechos observados):**
+- **[H]** Usuario @vterramallorca, con el nombre «vtmallorca». La categoría es «Vino/bebidas alcohólicas».
+- **[H]** **558 publicaciones · 19,3 mil seguidores · 1.238 seguidos.**
+- **[H]** La biografía es trilingüe: «Vins del cor del Mediterrani / Vinos del corazón del Mediterráneo / Wines from the heart of the Mediterranean».
+- **[H]** El enlace es «www.vtmallorca.com y 1 más». Tiene botones de Mensaje y Contactar.
+- **[H]** Historias destacadas con iconos uniformes en granate y crema: **RWF · Verema · Vins VT Mallorca · Bodegues · Viticultors**.
+- **[I]** El perfil está más ordenado que la web: los iconos son coherentes y las categorías destacadas coinciden casi exactamente con la estructura que propongo para la nueva web (festival, vendimia, vinos, bodegas, viticultores).
+- **[I]** El eslogan «Vins del cor del Mediterrani» **no aparece en la web** como mensaje principal. Es candidato a lema común.
+
+**Línea editorial y formatos (hechos observados):**
+- **[H]** Predominan los **reels**: la mayoría de las miniaturas llevan el icono de vídeo. También hay carruseles y carteles.
+- **[H]** Tres publicaciones fijadas, todas del Raïm Wine Fest Palma (24 de octubre de 2026): un vídeo con un personaje vestido de payés, un reel «MALLORCA» presentado por una mujer en un barco frente a la Catedral y el cartel «Escenari principal – Parc de la Mar».
+- **[H]** El bloque más reciente se centra casi por completo en el **Raïm Wine Fest Palma 2026**:
+  - Campaña creativa «Tempus in Vinum» (viaje en el tiempo, con un personaje de científico loco).
+  - Carteles por escenario y cartel de grupos (Buhos, DJs).
+  - Reel con formato de videollamada falsa de Guillem Solé (Buhos).
+  - Patrocinadores: Iberia Express, HM Hotels, Lomusic, Consell de Mallorca.
+  - Agradecimiento a la agencia «Apunto», contenido del «Raïm Wine Fest Team», vídeos de ambiente («gentada», charanga, vista nocturna del Parc de la Mar con la Catedral).
+  - Colaboración con la IGP Ensaïmada de Mallorca (Forn Fondo).
+- **[H]** Serie **«Els nostres cellers»** (verano de 2026, en plena vendimia). Ficha visual por bodega, con la persona en el viñedo y texto descriptivo sobre la foto: Vidauba, Bodegas Bordoy, Son Juliana, Microceller Son Crespí y una bodega familiar de Llucmajor.
+- **[H]** Contenido de vendimia: «Informatiu matí – Comença la verema», «Berenar de verema» y primeros planos de racimos (tintos y blancos).
+- **[H]** El idioma principal de los textos es el **catalán**. No se ven textos en inglés ni en alemán en el feed.
+- **[I]** Hay dos líneas claras: **festival (ocio, masivo)** y **bodegas y viticultores (origen, autenticidad)**. La primera seguramente genera más alcance y la segunda más valor de marca. Hay que confirmarlo con métricas.
+- **[I]** La calidad visual es alta y profesional: luz natural, personas reales, coherencia de color. Es claramente superior a las imágenes de 2022 que usa la web.
+- **[I]** Debilidades observables:
+  - Muchos carteles muy cargados de logotipos de patrocinadores y financiadores, que se leen mal en miniatura.
+  - Texto largo superpuesto sobre fotos de la serie «Els nostres cellers», con mala legibilidad en el grid.
+  - Ausencia de contenido para el turista internacional (EN/DE), que es el público clave del enoturismo.
+
+**Contenido reutilizable en la web (identificado):**
+- **[R]** La serie «Els nostres cellers» sirve como base para las **fichas de bodega**: retrato, texto y vídeo corto. Haría falta la versión **sin texto superpuesto**.
+- **[R]** Los vídeos de viñedo y vendimia (racimos, copa en el viñedo, caminos entre cipreses de Son Juliana) son candidatos a **vídeo de fondo** para la portada y el enoturismo.
+- **[R]** La vista nocturna del Parc de la Mar con la Catedral y los planos de público pueden servir de fondo para la página del **Raïm Wine Fest**.
+- **[R]** La creatividad «Tempus in Vinum» puede reutilizarse en el archivo de ediciones del festival.
+
+Lo que ya había observado desde la web:
 - **[H]** La web enlaza al perfil desde el pie de página.
 - **[H]** El feed de Instagram incrustado en la portada **no funciona**: aparece el texto literal del shortcode.
 - **[H]** El blog muestra qué temas genera la organización: Raïm Wine Fest, vendimia («1.582.915 kilos de uva» en agosto de 2026), premios (Baco, Vinaris, Bortone), ferias (ProWein), variedades locales, el Día de la Mujer y el Día del Viticultor. **[I]** Es probable que la línea editorial de Instagram gire en torno a estos mismos temas, pero hay que comprobarlo.
 
-**Plantilla de análisis que completaré cuando reciba los datos (sección 8):**
-- Biografía, enlace (¿apunta a vtmallorca.com o a un agregador?) e historias destacadas.
-- Mezcla de formatos (reels, carruseles, fotos) y frecuencia en los últimos 90 días.
-- Calidad visual y coherencia con la paleta granate y crema.
-- Tasa de interacción: (me gusta + comentarios) / seguidores, por publicación.
+**Pendiente (necesito la exportación de Meta Business Suite o las Estadísticas de la cuenta):**
+- Frecuencia real de publicación (las capturas no muestran fechas).
+- Tasa de interacción por publicación: (me gusta + comentarios + guardados + compartidos) / alcance.
 - Las 5 publicaciones con mejor respuesta y las 5 con peor, y una hipótesis de por qué.
-- Contenido reutilizable en la web: fotos de bodegas, viticultores, vendimia y del Raïm.
+- Origen geográfico e idioma de la audiencia, para decidir el peso de EN y DE en la web.
 
 ---
 
